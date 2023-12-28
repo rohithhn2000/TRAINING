@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+	  <group>
+		  <run>
+			  <include name="smoke">
+				  </include>
+		  </run>	  
+		  </group>
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  <classes>
+      <class name="Testngbatchexecution.hp"/>
+      <class name="Testngbatchexecution.Infinix"/>
+      <class name="Testngbatchexecution.mac"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
